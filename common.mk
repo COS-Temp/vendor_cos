@@ -98,6 +98,11 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
+# Markup Libs
+PRODUCT_COPY_FILES += \
+    vendor/cos/prebuilt/common/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+    vendor/cos/prebuilt/common/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+
 # AudioFX
 PRODUCT_PACKAGES += \
     AudioFX
