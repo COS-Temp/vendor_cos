@@ -127,7 +127,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CosmicWalls \
     Galaxy \
-    Retro
+    Retro \
+    MarkupGoogle \
+    SettingsIntelligenceGooglePrebuilt
 
 # Extra tools
 PRODUCT_PACKAGES += \
